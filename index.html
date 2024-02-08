@@ -12,41 +12,96 @@
 </head>
 
 <body class="debug">
-    <nav class="navbar  d-flex justify-content-between">
+    <header>
+        <nav class="navbar  d-flex justify-content-between">
 
 
-        <div class="container container-sm container-md">
-            <div class="inside d-flex align-items-center justify-content-between w-100">
-                <span class="navbar-brand mb-0 h1">START BOOTSTRAP</span>
-                <div class="box">
-                    <div class="dropdown">
-                        <input type="checkbox" id="checkbox-toggle">
-                        <label for="checkbox-toggle">
-                            <i class="fa-solid fa-bars"></i>
-                        </label>
-                        <ul>
-                            <li><a href="#">PORTFOLIO</a></li>
-                            <li><a href="#">ABOUT</a></li>
-                            <li><a href="#">CONTACT</a></li>
-                        </ul>
+            <div class="container container-sm container-md">
+                <div class="inside d-flex align-items-center justify-content-between w-100">
+                    <span class="navbar-brand mb-0 h1">START BOOTSTRAP</span>
+                    <div class="box">
+                        <div class="dropdown">
+                            <input type="checkbox" id="checkbox-toggle">
+                            <label for="checkbox-toggle">
+                                <i class="fa-solid fa-bars"></i>
+                            </label>
+                            <ul>
+                                <li><a href="#">PORTFOLIO</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <div class="main_menu d-flex">
+                            <span>
+                                <a href="#">PORTFOLIO</a>
+                            </span>
+                            <span>
+                                <a href="#">ABOUT</a>
+                            </span>
+                            <span>
+                                <a href="#">CONTACT</a>
+                            </span>
+                        </div>
+
                     </div>
-                    <div class="main_menu d-flex">
-                        <span>
-                            <a href="#">PORTFOLIO</a>
-                        </span>
-                        <span>
-                            <a href="#">ABOUT</a>
-                        </span>
-                        <span>
-                            <a href="#">CONTACT</a>
-                        </span>
-                    </div>
-
                 </div>
             </div>
-        </div>
 
-    </nav>
+        </nav>
+    </header>
+    <!-- ---------end header---------- -->
+
+    <main>
+        <div class="jumbo container-fluid text-center">
+            <div class="row">
+                <div class="col d-flex flex-column row-gap-3 p-4 bg-success-subtle">
+                    <img height=" 150" src="./assets/img/avatar.svg" alt="">
+                    <h2>START BOOTSTRAP</h2>
+                    <div class="d-flex gap-3 align-items-center justify-content-center">
+                        <span class="line"></span>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="line"></span>
+                    </div>
+                    <h6>GRAPHIC ARTIST - WEB DEVELOPER - ILLUSTRATOR</h6>
+                </div>
+
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="col d-flex flex-column align-items-center justify-content-center row-gap-3">
+                <h2>PORTFOLIO</h2>
+                <div class="d-flex gap-3 align-items-center justify-content-center">
+                    <span class="line"></span>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="line"></span>
+                </div>
+
+            </div>
+            <div class="my_container d-flex flex-wrap  ">
+                <div class="row row-gap-4 p-3  d-flex  flex-wrap justify-content-center align-items-center m-auto">
+                    <div class="col col-sm-6 col-md-4">
+                        <img class="rounded" height="150" src="./assets/img/cabin.png" alt="">
+                    </div>
+                    <div class="col col-sm-6 col-md-4">
+                        <img class="rounded" height="150" src="./assets/img/cake.png" alt="">
+                    </div>
+                    <div class="col col-sm-6 col-md-4">
+                        <img class="rounded" height="150" src="./assets/img/circus.png" alt="">
+                    </div>
+                    <div class="col col-sm-6 col-md-4">
+                        <img class="rounded" height="150" src="./assets/img/cabin.png" alt="">
+                    </div>
+                    <div class="col col-sm-6 col-md-4">
+                        <img class="rounded" height="150" src="./assets/img/cake.png" alt="">
+                    </div>
+                    <div class="col col-sm-6 col-md-4">
+                        <img class="rounded" height="150" src="./assets/img/circus.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
 </body>
 
 </html>
