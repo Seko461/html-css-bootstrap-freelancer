@@ -85,6 +85,11 @@ body {
 
 }
 
+.rounded:hover {
+
+    transform: translatey(-6rem);
+}
+
 #about .btn {
     border: 2px solid var(--boot-lighter);
 }
