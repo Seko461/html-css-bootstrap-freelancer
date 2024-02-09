@@ -21,6 +21,12 @@ body {
 
 }
 
+.offcanvas {
+    background-color: var(--boot-secondary);
+}
+
+
+
 .navbar a {
     color: var(--boot-lighter);
 }
@@ -30,9 +36,6 @@ body {
     color: var(--boot-primary);
 }
 
-.navbar-toggler {
-    color: rgba(26, 188, 156, 1)
-}
 
 
 #jumbo {
@@ -109,6 +112,10 @@ textarea {
     outline: none;
     border-bottom: 1px solid black;
 
+}
+
+[type="number"] {
+    overflow: auto;
 }
 
 input[type="button"] {
