@@ -9,6 +9,7 @@
 
 body {
     min-width: 357px;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -23,6 +24,7 @@ body {
 
 .offcanvas {
     background-color: var(--boot-secondary);
+    height: 50%;
 }
 
 
@@ -144,9 +146,10 @@ input[type="button"] {
 .icons ul {
     list-style: none;
     display: flex;
-    width: 70%;
+    width: 60%;
     justify-content: space-between;
-    gap: .5rem;
+
+
 }
 
 .icons li {
@@ -155,6 +158,7 @@ input[type="button"] {
     line-height: 2rem;
     border-radius: 50%;
     border: 1px solid white;
+    z-index: 1;
 }
 
 .icons li:hover {
@@ -181,6 +185,10 @@ input[type="button"] {
 @media screen and (min-width: 576px) {
     #portfolio img {
         height: 180px;
+    }
+
+    .icons ul {
+        width: 80%;
     }
 }
 
