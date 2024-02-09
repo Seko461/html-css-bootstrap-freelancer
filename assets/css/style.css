@@ -2,9 +2,15 @@ body {
     min-width: 357px;
 }
 
-nav {
+.navbar {
     background-color: blue;
     position: fixed;
+    width: 100%;
+
+}
+
+.navbar a {
+    color: white;
 }
 
 
